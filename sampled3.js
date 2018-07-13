@@ -54,9 +54,7 @@ var simulation = d3.forceSimulation()
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; });
   }
-//});
-
-});
+//});//
 
 function dragstarted(d) {
   if (!d3.event.active) simulation.alphaTarget(0.3).restart();
@@ -74,3 +72,5 @@ function dragended(d) {
   d.fx = null;
   d.fy = null;
 }
+
+});
