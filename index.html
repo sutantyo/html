@@ -2,20 +2,57 @@
 <html>
 <head>
 
-</head>
+<link rel='stylesheet' href='styles.css'>
 
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="miserables.js"></script>
+<script src="script.js"></script>
+<script src="sampled3.js"></script>
+
+</head>
 <body>
 
-  <h1>Lorem Ipsum</h1>
-  <h2>Lorem Ipsum</h2>
+  <svg width="960" height="600"></svg>
 
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut dignissim tellus. Duis tortor nibh, fringilla eget pharetra in, blandit ac eros. Integer dictum vestibulum justo, eget semper elit facilisis quis. Mauris viverra posuere justo, sit amet blandit ligula porta vitae. Fusce quis scelerisque massa, non commodo nisl. Fusce fringilla laoreet lacus at ullamcorper.
+  <h1>Lorem Ipsum</h1>
+
+  <button id='mybutton' type='button'>Click me</button>
+
+  <div id='empty'>
+  </div>
+
+  <div id='arial'>
+    github.com/sutantyo/html
+    <p class='blue'>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut dignissim tellus. Duis tortor nibh, fringilla eget pharetra in, blandit ac eros. Integer dictum vestibulum justo, eget semper elit facilisis quis. Mauris viverra posuere justo, sit amet blandit ligula porta vitae. Fusce quis scelerisque massa, non commodo nisl. Fusce fringilla laoreet lacus at ullamcorper.
+    </p>
+    <ul class='small'>
+      <li> First item </li>
+      <li> Second item </li>
+      <li> Third item </li>
+    </ul>
+
+    <p>
+      Vivamus nisl nunc, pretium sit amet finibus et, pharetra vitae felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin tincidunt consectetur sem eu condimentum. Vestibulum semper diam quis eleifend aliquet. Proin iaculis, eros pretium fringilla fermentum
+    </p>
+  </div>
+
+  <p class='small blue'>
+    Vivamus nisl nunc, pretium sit amet finibus et, pharetra vitae felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin tincidunt consectetur sem eu condimentum. Vestibulum semper diam quis eleifend aliquet. Proin iaculis, eros pretium fringilla fermentum
   </p>
+  <ol class='blue'>
+    <li> First item </li>
+    <li> Second item </li>
+    <li> Third item </li>
+  </ol>
 
   <p>
     Vivamus nisl nunc, pretium sit amet finibus et, pharetra vitae felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin tincidunt consectetur sem eu condimentum. Vestibulum semper diam quis eleifend aliquet. Proin iaculis, eros pretium fringilla fermentum
   </p>
-
 </body>
+
+<script>
+  document.getElementById('arial').style.color = 'blue';
+</script>
 </html>
